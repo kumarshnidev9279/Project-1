@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My firs form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="shni"> &nbsp;Self Introduction &nbsp;</h1>
+    <form >
+       
+        <label id="fname" for="fname">Father Name:</label>
+        <input 
+            type="text"
+            
+            name="name"
+            required
+            minlength="2"
+            maxlength="16"
+            pattern='[A-Za-z\s]+'
+            placeholder="Enter Your Father Name"
+            >
+
+        <br><br>
+
+        <label id="mname" for="mname">mother name:</label>
+        <input
+             type="text"
+             
+             name="mother name"
+             required
+             minlength="2"
+             maxlength="18"
+             pattern='[A-Za-z\s]+'
+             placeholder="Enter Your Mother Name"
+             >
+        <br><br>
+
+        <label for="mail">Email:</label>
+        <input 
+            type="mail"
+            id="mail"
+            name="email"
+            required
+            minlength="2"
+            placeholder="email@gmail.com"
+            pattern="[A-Za-z0-9]+'@'[A-Za-z]+\.(com|in|co)"
+            >
+        <br><br>
+
+        <label for="">Gender:</label> <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male"name="gender" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" required>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" required>
+        <br><br>
+
+        <label for="date">DOB:</label>
+        <input
+                 type="date"
+                 id="date"
+                 name="DOB"
+                 required
+                 >
+        <br><br>
+
+        <label for="course">Course</label>
+        <select name="branch" id="course">
+            <option value="CSE">CSE</option>
+            <option value="CE">civil</option>
+            <option value="ME">ME</option>
+            <option value="EE">EE</option>
+            <option value="CST">CST</option>
+        </select>
+        <br><br>
+
+        <label for="add">Adress:</label>
+        <textarea name="adress" id="add"></textarea>
+        <br><br>
+       <label for="fle">Upload Resume:</label>
+        <input type="file">
+        <br><br>
+
+        <label for="hobbies">Hobbies:</label><br><br>
+        <label for="hibbies">Football</label>
+        <input 
+        type="radio"
+        id="hobbies" 
+        name="hobbies" 
+        required
+        >
+        <label for="">Criket</label>
+        <input 
+        type="radio" 
+        id="hobbies" 
+        name="hobbies"
+        required
+        >
+        <label for="">Ludo</label>
+        <input 
+        type="radio"
+        id="hobbies" 
+        name="hobbies" 
+        required
+        >
+        <br><br>
+
+       
+        <button>sumbit</button>
+
+
+
+
+    </form>
+</body>
+</html>

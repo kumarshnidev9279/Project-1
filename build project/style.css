@@ -1,0 +1,138 @@
+/* Universal Selector */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#f4f8fc;
+}
+
+/* Header */
+
+#header{
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+.logo-section{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo{
+    font-size:35px;
+}
+
+.navbar{
+    display:flex;
+    gap:30px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+.login-btn{
+    background:#0d4da3;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+}
+
+/* Hero */
+
+#hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:70px;
+}
+
+.hero-left{
+    width:50%;
+}
+
+.main-heading{
+    font-size:50px;
+    color:#123b78;
+}
+
+.hero-text{
+    margin-top:20px;
+    font-size:18px;
+}
+
+.btn-primary{
+    margin-top:20px;
+    padding:15px 25px;
+    border:none;
+    background:#123b78;
+    color:white;
+    border-radius:10px;
+}
+
+.hero-right{
+    width:40%;
+}
+
+.weather-card{
+    background:#1d3557;
+    color:white;
+    padding:30px;
+    border-radius:20px;
+}
+
+/* Features */
+
+#features{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    padding:50px;
+}
+
+.feature-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+/* Dashboard */
+
+#dashboard{
+    padding:50px;
+}
+
+.dashboard-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+
+/* Footer */
+
+#footer{
+    background:#123b78;
+    color:white;
+    text-align:center;
+    padding:30px;
+}

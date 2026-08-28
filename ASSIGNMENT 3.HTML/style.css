@@ -1,0 +1,16 @@
+.shni{
+    background-color: rgba(12, 0, 230, 0.427);
+    display: inline-flex;
+    border-radius: 100px;
+
+    }
+    #fname{
+        background-color: rgb(210, 220, 224);
+         display: inline-flex;
+        border-radius: 4px;
+    }
+    #mname{
+        background-color: rgba(49, 100, 82, 0.468);
+         display: inline-flex;
+        border-radius: 4px;
+    }
